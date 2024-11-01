@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Site</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="skills.css">
+  <link rel="stylesheet" href="resumePart.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="skills/index.html">Skills</a></li>
+        <li><a href="#">Get CV</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+
+        <li class="link"><a
+            href="https://www.linkedin.com/in/aryan-kumar-18258a273?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDUqCPq0iTYiCizNLK1Dk8A%3D%3D"><img
+              src="assests/linkin.svg" style="height: 35px ; width: 35px;" alt=""></a></li>
+        <li class="link"><a href="https://github.com/aryankumar899"><img src="assests/icons8-github.svg"
+              style="height: 35px; width: 35px;" alt=""></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content">
+    <div class="intro">
+      <h1>Aryan Kumar</h1>
+      <p>I'm an aspiring <span style="font-weight: bold"></span> 
+      </p>
+    </div>
+    <div class="profile">
+      <img src="assests/12935.jpg" alt="Image">
+    </div>
+
+  </div>
+
+  <div class="skills-container">
+    <h1>My Skills</h1>
+    <div class="skills-grid" id="skills-grid">
+
+    </div>
+  </div>
+
+  <div class="resume-part">
+    <h2>Click on Get CV Button for Download the CV</h2>
+    <a class="btn-cv" href="assests/10th admit.pdf">Get CV <img src="assests/download.svg" alt=""></a>
+  </div>
+  <section id="projects"></section>
+  <div class="container">
+    <h2>Some of my Projects</h2>
+    <div class="projects-grid" id="projectGrid">
+      <!-- Project 1 -->
+      <div class="project">
+        <img style="height: 210px;" src="assests/Screenshot (298).png" alt="Project 1">
+        <h3>Netflix Clone</h3>
+        <p>"A Netflix clone built with HTML and CSS replicates the visual design of the popular streaming platform. It
+          features a clean and responsive layout with a dark theme, a logo, and navigation bar at the top. Content
+          sections like 'Trending' and 'Top Picks' are displayed in horizontal carousels with thumbnail images. CSS is
+          used to create hover effects, transitions, and responsive grid layouts. While it lacks functionality, it
+          demonstrates the UI design of Netflix using only front-end technologies."</p>
+      </div>
+      <!-- Project 2 -->
+      <div class="project">
+        <img src="assests/todo.png" alt="Project 2">
+        <h3>Todo-List</h3>
+        <p>"A simple to-do list app built with HTML, CSS, and JavaScript allows users to add, edit, and delete tasks.
+          The user-friendly interface features a clean design with an input field and buttons for task management.
+          JavaScript handles dynamic functionality, including adding new tasks, marking them as complete, and removing
+          them from the list. CSS is used for styling and visual feedback, like strikethroughs for completed tasks. This
+          project demonstrates core web development concepts in creating interactive front-end applications."</p>
+      </div>
+      <!-- Project 3 -->
+      <div class="project">
+        <!-- <img src="" alt="Project 3">
+          <h3>Project Title 3</h3>
+          <p>Brief description of the project goes here. Explain what technologies were used and the purpose of the project.</p>
+        </div> -->
+      </div>
+    </div>
+    </section>
+
+    <!-- Contact Me -->
+
+    <div class="contact">
+      <div class="contact-container">
+        <h1>Contact Me</h1>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required placeholder="Write a Message"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <p id="responseMessage"></p>
+      </div>
+      <div class="contact-links">
+        <p>Connect Me</p>
+
+        <div class="lin">
+          <a href="princebrwd74785@gmail.com"> <img src="assests/emal.png" alt="">princebrwd74785@gmail.com</a>
+        </div>
+        <div class="other-lin">
+          <ul>
+            <li><a href=""><img src="assests/insta.svg" alt=""></a></li>
+            <li><a href=""><img src="assests/telegram.svg" alt=""></a></li>
+            <li><a href=""><img src="assests/github.svg" alt=""></a></li>
+            <li><a href=""><img src="assests/linkedIn.svg" alt=""></a></li>
+          </ul>
+        </div>
+       <div class="get-res">
+        <a  href="assests/10th admit.pdf">Resume <img src="assests/download.svg" alt=""></a>
+      </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+    <script src="resumePart.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+     
+ /* background-color: hsl(0, 0%, 0%); */
+ font-family: "SUSE", sans-serif;
+
+}
+body{
+    background-color: black
+}
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+.navbar{
+    height: 90px;
+    width: 80vw;
+    border: 2px solid white;
+    margin-left: 155px;
+    border-top-color: hsl(0, 3%, 25%);
+    border-radius: 8px;
+    background-color: hsl(0, 1%, 19%);
+    border-color: hsl(0, 1%, 14%);
+    /* position: fixed; */
+}
+.navbar ul{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      
+    float: left;    
+      
+      
+}
+
+
+.navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    float: left;    
+
+   
+}
+.navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 25px ;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+
+    /* background-color: rgb(140, 140, 188);
+    border-radius: 40px;
+     */
+
+
+    
+    color:rgb(138, 127, 127);
+}
+
+
+.link{
+    position:relative;
+    left: 400px;
+}
+  
+  .skills-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #0a0606;
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .skill img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .skill:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skill-name {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+  }
+  

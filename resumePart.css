@@ -1,0 +1,49 @@
+.resume-part h2 {
+    color: white;
+    font-weight: 300px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+.resume-part a{
+    width: 130px;
+    height: 50px;
+
+    margin-left: 700px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+.resume-part a img{
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.resume-part a:hover{
+    box-shadow: 0px 0px 12px 5px orange;
+    animation: shadow 0.6s  0.9s ease-in-out;
+}
+@keyframes shadow {
+      to{
+         opacity: 0.3;
+      }
+
+      
+      from{
+    box-shadow: 0px 0px 12px 12px orange;
+    opacity: 2;
+
+      }
+    
+}

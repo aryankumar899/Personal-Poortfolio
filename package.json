@@ -1,0 +1,12 @@
+{
+  "name": "personal-porfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "type":"module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryan Kumar",
+  "license": "ISC"
+}
